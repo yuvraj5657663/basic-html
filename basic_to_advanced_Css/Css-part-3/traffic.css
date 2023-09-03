@@ -1,0 +1,50 @@
+#outerdiv{
+    height:300px;
+    width:120px;
+    border: 2px solid black;
+
+}
+.firstdiv{
+    height: 65px;
+    width: 65px;
+    border:2px solid black;
+    margin: 22px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+.seconddiv{
+height: 65px;
+    width: 65px;
+    border: 2px solid black;
+    margin: 22px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.thirddiv{
+    height: 65px;
+        width: 65px;
+        border: 2px solid black;
+        margin: 22px;
+        background-color: green;
+        border-radius: 50%;
+}
+
+.firstdiv:hover{
+    cursor: pointer;
+    background-color:green;
+    transition-duration: 1s;
+    
+    
+
+}
+.seconddiv:hover{
+    cursor: zoom-out;
+    background-color: red;
+    transition-duration: 0.5s;
+}
+.thirddiv:hover{
+    cursor:no-drop;
+    background-color: yellow;
+    transition-duration: 0.3s;
+}
