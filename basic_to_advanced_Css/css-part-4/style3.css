@@ -1,0 +1,26 @@
+.container{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border:2px solid rgb(101, 247, 247);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+
+    border-radius: 10px;
+   
+
+}
+.container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.container div:hover{
+    color: rgb(30, 30, 223);
+    text-decoration:underline;
+}
