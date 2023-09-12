@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poopins", sans-serif;
+
+}
+
+.container {
+    background: url(picture2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.first_btn i {
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    transition: all o.3s linear;
+    left: 16px;
+    line-height: 60px;
+    opacity: 1;
+}
+
+.sidebar-menu {
+    position: fixed;
+    height: 100vh;
+    left: -300px;
+    background-color: rgba(255, 255, 255, 0.6765);
+    width: 300px;
+    box-shadow: 0 0 8px rgba(35, 42, 247, 0.988);
+    transition: all 0.3s linear;
+
+
+}
+
+.sidebar-menu .image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:black rgb(243, 213, 213);
+    position: absolute;
+    left: 70px;
+    top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px;
+
+}
+
+.sidebar-menu .image img{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    background-image: cover;
+
+    
+}
+.sidebar-menu .profile-view a{
+   
+   position: absolute;
+   left: 30%;
+   top: 170px;
+   font-size: 20px;
+   font-weight: 500;
+
+}
+
+.sidebar-menu .baner-name{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    box-shadow: 0 2px 6px rgba(233, 47, 47, 0.677);
+    top: 200px;
+
+
+
+}
+.sidebar-menu .baner-name a{
+    position:absolute;
+    left: 60px;
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 600px;
+    
+}
+.sidebar-menu .second_btn i{
+    position: absolute;
+    left:270px;
+    top: 5px;
+    color: rgb(70, 59, 59);
+    font-size: 25px;
+    transition: all 0.3s linear;
+    opacity: 1;
+
+}
+.sidebar-menu .menu-bar{
+    position: absolute;
+        width: 100%;
+        top: 260px;
+}
+.sidebar-menu .social_media {
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+
+.sidebar-menu .social_media i {
+    color: rgb(26, 6, 244);
+    opacity: 0.5;
+    padding: 0 5px;
+}
+.sidebar-menu .menu-bar li {
+    margin-top: 2px;
+    padding: 10px 30px;
+}
+
+.sidebar-menu .menu-bar i,
+a {
+    color: rgb(0, 1, 4);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar-menu .menu-bar i {
+    padding-right: 8px;
+
+}
+#check{
+    display: none;
+}
+.sidebar-menu .menu-bar li:hover {
+    box-shadow: 0 2px 8px #eb0303e9;
+}
+
+.first_btn i:hover {
+    font-size: 40px;
+}
+
+.second_btn i:hover {
+    font-size: 30px;
+}
+
+.sidebar-menu .social_media i:hover {
+    opacity: 1.1;
+    transform: scale(1.1);
+    box-shadow: 0 2px rgba(145, 48, 48, 0.677)
+}
+
+#check:checked~.sidebar-menu {
+    left: 0;
+}
+
+#check:checked~.sidebar-menu .second_btn i {
+    opacity: 1;
+}
+
+#check:checked~.first_btn i {
+    opacity: 1;
+    top:200px;
+    color: rgb(1, 0, 6);
+}

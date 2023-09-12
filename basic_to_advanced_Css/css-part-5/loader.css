@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.loader{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    animation :spin 2s linear infinite;
+
+}
+
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.loader1{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 18px solid rgb(185, 165, 165);
+    border-right:16px solid cyan;
+    animation:spin 2s linear infinite;
+
+
+    
+}

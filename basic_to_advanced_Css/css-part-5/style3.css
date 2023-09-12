@@ -1,0 +1,46 @@
+i {
+    color: chocolate;
+}
+
+span {
+    color: chocolate;
+}
+
+.pet {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    background-color: azure;
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+
+
+div img {
+    width: 400px;
+    height: 225px;
+    border-radius: 25px;
+
+
+}
+
+
+
+
+
+@media (max-width:700px) {
+   .pet {
+        flex-wrap: wrap;
+    }
+}
